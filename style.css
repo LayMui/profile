@@ -1,0 +1,71 @@
+/* body {
+  background-color: red;
+  font-family: Georgia, serif;
+  color: blue;
+  font-size: 10;
+  line-height: 1
+} */
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.container {
+ background-color: white;
+ width: 500px;
+ margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+}
+
+.card-white h2 {
+  background-color: white;
+  color: green;
+  text-align: center;
+}
+
+#introduction {
+  font-family: Georgia, serif;
+}
+
+
+.btn-blue {
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.list-inline li {
+  display:inline;
+  font-size:24px;
+  padding: 5px;
+}
+
+.list-inline li:hover {
+  display:inline;
+  font-size:24px;
+  background-color: red;
+
+}
